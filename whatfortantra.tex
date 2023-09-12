@@ -1,0 +1,63 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{hyperref}
+
+\newlength\mystoreparindent
+\newenvironment{leftindent}[0]{%
+\setlength{\mystoreparindent}{\the\parindent}
+\setlength{\parindent}{0pt}
+}{%
+\setlength{\parindent}{\mystoreparindent}
+}
+
+
+\title{Tantra - What for?}
+\date{2023-09-12}
+\author{Translated by Anonymous from Helena Krivan's original}
+
+% proof reader: verena (!), silvia, seidler, roland, ursula
+\begin{document}
+
+\pagenumbering{gobble}
+\maketitle
+
+\begin{center}
+	\includegraphics[width=3cm]{images/namaste.jpg}
+	\vspace{0.5cm}
+	
+	\textit{What it is.}\\
+	\textit{What it's not.}\\
+	\textit{What it could be for you.}
+\end{center}
+\newpage
+
+\tableofcontents
+\newpage
+
+\pagenumbering{arabic}
+
+\include{chapters/01_introduction}
+\include{chapters/02_happens}
+\include{chapters/03_surrender}
+\include{chapters/04_ladder}
+\include{chapters/05_light}
+\include{chapters/06_what}
+\include{chapters/07_teacher}
+\include{chapters/08_backbone}
+\include{chapters/09_dangerous}
+\include{chapters/10_work}
+\include{chapters/11_mindfulness}
+\include{chapters/12_jealousy}
+\include{chapters/13_weak}
+\include{chapters/14_teacher}
+\include{chapters/15_protect}
+\include{chapters/16_married}
+\include{chapters/17_screw}
+\include{chapters/18_separated}
+\include{chapters/19_maithuna}
+\include{chapters/20_sunshine}
+\include{chapters/21_fear}
+\include{chapters/22_works}
+
+\end{document}
