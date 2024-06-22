@@ -1,7 +1,11 @@
 .DS_Store
+
 *.aux
 *.log
 *.pdf
 *.synctex.gz
 *.out
 *.toc
+
+.idea/
+*.iml
